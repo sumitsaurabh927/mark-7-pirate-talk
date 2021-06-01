@@ -1,0 +1,69 @@
+:root {
+  --color: rgba(37, 37, 37, 0.459);
+}
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+body {
+  font-family: "ZCOOL KuaiLe", cursive;
+  margin: 0;
+  display: block;
+  color: white;
+}
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--color);
+}
+.bottom {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--color);
+}
+.body {
+  height: 80vh;
+}
+#heading {
+  margin: auto;
+  padding-left: 38%;
+  padding-top: 1%;
+}
+.input {
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding: 4rem 10rem;
+}
+.boxOne {
+    font-family: 'ZCOOL KuaiLe', cursive;
+  height: 12rem;
+  width: 90%;
+}
+
+.output {
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding: 2rem 10rem;
+}
+.boxTwo {
+    font-family: 'ZCOOL KuaiLe', cursive;
+  height: 12rem;
+  width: 90%;
+}
+.more {
+  margin-left: 40%;
+  margin-right: 37%;
+}
+#click {
+    font-family: 'ZCOOL KuaiLe', cursive;
+  padding: 1rem 4rem;
+}
+#out {
+  padding-top: 1rem;
+  color: white;
+}
+
+#headingTwo {
+  margin: auto;
+  padding-left: 39%;
+  padding-top: 1%;
+}
