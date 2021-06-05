@@ -17,15 +17,10 @@ function computeURL(text) {
 
 function clickHandler() {
   console.log(textInput.value);
-  // var compURL = url + "?" + "text=" + textInput.value;
-  // console.log(compURL);
-  var text=textInput.value;
+  var text = textInput.value;
   console.log(text);
-  fetch(computeURL())
-    .then((response) => {
-      var news = response.json();
-      console.log(news);
-    })
+  fetch(computeURL(text))
+    .then((response) => response.json())
     .then((json) => {
       var result = json.contents.translated;
       console.log(result);
